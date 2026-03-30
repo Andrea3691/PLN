@@ -3,13 +3,13 @@
 
 Este repositorio contiene la implementación práctica y el código fuente correspondiente al **Grupo 1** para el proyecto de Procesamiento de Lenguaje Natural (PLN). El objetivo principal es analizar los niveles lingüísticos (morfológico y sintáctico) y demostrar cómo la Inteligencia Artificial resuelve la ambigüedad sintáctica utilizando la librería `spaCy`.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 El código implementa un *pipeline* de procesamiento lingüístico que toma oraciones en lenguaje natural (español) y realiza:
 1. **Tokenización y Lematización:** Descomposición del texto y extracción de la raíz de las palabras.
 2. **Part-of-Speech (POS) Tagging:** Asignación de categorías gramaticales (sustantivos, verbos, determinantes, etc.).
 3. **Dependency Parsing:** Creación de árboles de dependencias sintácticas para identificar al "padre" e "hijo" de cada palabra, resolviendo así casos de ambigüedad en oraciones complejas.
 
-## 🛠️ Requisitos del Sistema
+## Requisitos del Sistema
 Para garantizar la reproducibilidad del entorno de desarrollo, se requiere:
 * **Sistema Operativo:** Windows (con WSL recomendado), Linux o macOS.
 * **Lenguaje:** Python 3.8 o superior.
